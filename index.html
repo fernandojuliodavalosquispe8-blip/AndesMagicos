@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo en Puno</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="relative h-screen flex items-center justify-center text-center text-white">
+    <img src="https://images.unsplash.com/photo-1587574293445-6d4b7e8a5f9d?w=1600" alt="Lago Titicaca" 
+         class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 px-4" data-aos="zoom-in">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Descubre la Magia del Lago Titicaca</h1>
+      <p class="text-lg md:text-2xl mb-6">La cuna de culturas ancestrales y paisajes inolvidables</p>
+      <a href="#atractivos" class="px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-full shadow-lg transition">Explora más</a>
+    </div>
+  </section>
+
+  <!-- Atractivos -->
+  <section id="atractivos" class="py-16 px-6 md:px-20 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-12">Principales Atractivos de Puno</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg" data-aos="fade-up">
+        <img src="https://images.unsplash.com/photo-1622206787237-dfef39b4e2ff?w=800" alt="Islas Uros" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Islas Uros</h3>
+          <p>Conoce las islas flotantes hechas de totora en el majestuoso Lago Titicaca.</p>
+        </div>
+      </div>
+      <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="100">
+        <img src="https://images.unsplash.com/photo-1587574293445-6d4b7e8a5f9d?w=800" alt="Isla Taquile" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Isla Taquile</h3>
+          <p>Famosa por su textilería, reconocida como Patrimonio Inmaterial de la Humanidad.</p>
+        </div>
+      </div>
+      <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="200">
+        <img src="https://images.unsplash.com/photo-1563991144181-4d3d43f8ab9a?w=800" alt="Sillustani" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Chullpas de Sillustani</h3>
+          <p>Un cementerio preincaico con impresionantes torres funerarias frente a la laguna Umayo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cultura y Festivales -->
+  <section class="py-16 px-6 md:px-20 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center mb-12">Cultura y Festivales</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="rounded-lg overflow-hidden shadow-lg" data-aos="fade-right">
+        <img src="https://images.unsplash.com/photo-1549887534-3db1bd59dcca?w=800" alt="Candelaria" class="w-full h-64 object-cover">
+      </div>
+      <div class="flex flex-col justify-center" data-aos="fade-left">
+        <h3 class="text-2xl font-semibold mb-4">Virgen de la Candelaria</h3>
+        <p>La fiesta más grande del altiplano peruano, declarada Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 px-6 md:px-20 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-12">Planifica tu Viaje</h2>
+    <form class="max-w-lg mx-auto space-y-4" data-aos="fade-up">
+      <input type="text" placeholder="Tu nombre" class="w-full p-3 border rounded-lg">
+      <input type="email" placeholder="Tu correo" class="w-full p-3 border rounded-lg">
+      <textarea placeholder="Tu mensaje" class="w-full p-3 border rounded-lg"></textarea>
+      <button class="w-full py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg shadow">Enviar</button>
+    </form>
+  </section>
+
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>© 2025 Turismo en Puno. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
